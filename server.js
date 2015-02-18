@@ -11,7 +11,8 @@ app.use(bodyParser.urlencoded());
 app.use(bodyParser.json());
 
 
-mongoose.connect('mongodb://192.168.1.100:27017/Test');
+mongoose.connect('mongodb://admin:4nUxbTnSnpA_@127.0.0.1:27017/nodejs');
+//mongoose.connect('mongodb://192.168.1.100:27017/Test');
 
 
 var router = express.Router();
